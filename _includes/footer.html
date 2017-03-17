@@ -1,0 +1,32 @@
+<!-- Footer Start -->
+
+<footer>
+
+    {% include social-buttons.html %}
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
+        {% if site.keybase-in-footer %}
+        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
+                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
+        {% endif %}
+
+    </div>
+</footer>
+
+<p><br><br><br><br><br></p>
+
+<div class="container text-center">
+    <p>Impressum</p>
+    <p>(German law demands this)<br />
+
+    raufelder.com <br />
+    Julian Raufelder <br />
+    Gartenstraße 14 <br />
+    78462 Konstanz <br />
+    Email: julian@raufelder.com</p>
+</div>
+
+<!-- Footer End -->
